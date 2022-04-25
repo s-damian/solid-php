@@ -39,7 +39,7 @@ abstract class Quadrilateral
     /**
      * @return int
      */
-    public function getWidth()
+    public function getWidth(): int
     {
         return $this->width;
     }
@@ -47,7 +47,7 @@ abstract class Quadrilateral
     /**
      * @return int
      */
-    public function getHeight()
+    public function getHeight(): int
     {
         return $this->height;
     }

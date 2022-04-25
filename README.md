@@ -1,17 +1,11 @@
-# SOLID - Exemple avec PHP 7
-
-
+# SOLID - Exemple avec PHP 8.1
 
 
 ## Author
 
 Author of this example:
-[Développeur PHP](https://www.devandweb.fr/freelance/developpeur-php)
-[![Developpeur web Freelance](https://www.devandweb.fr/medias/app/website/developpeur-web.png)](https://www.devandweb.fr)
-
-
-
-
+[Freelance Laravel](https://www.devandweb.fr/freelance/developpeur-php)
+[![Freelance Next.js](https://www.devandweb.fr/medias/app/website/developpeur-web.png)](https://www.devandweb.fr)
 
 
 ## SOLID
@@ -32,11 +26,7 @@ _D :
 **Dependency Inversion Principle (Inversion des dépendances)** - Il faut dépendre des abstractions, pas des implémentations.
 
 
-
-
-
-
-## Exemple
+## Exemples
 
 * [Single Responsibility Principle](https://github.com/dev-and-web/solid-php/tree/master/src/1_single-responsibility-principle)
 

@@ -24,6 +24,6 @@ quand nous avons besoin et ceux sans avoir à écrire en dur quelques dépendanc
 
 
 
-### Voici un exemple du principe Dependency Inversion Principle (Inversion des dépendances)
+## Voici un exemple du principe Dependency Inversion Principle (Inversion des dépendances)
 
 * [Dependency Inversion Principle (Inversion des dépendances) - Source](https://github.com/dev-and-web/solid-php/tree/master/src/5_dependency-inversion-principle/index.php)
