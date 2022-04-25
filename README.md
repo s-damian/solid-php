@@ -26,7 +26,7 @@ _D :
 **Dependency Inversion Principle (Inversion des dépendances)** - Il faut dépendre des abstractions, pas des implémentations.
 
 
-## Exemples
+## Examples
 
 * [Single Responsibility Principle](https://github.com/dev-and-web/solid-php/tree/master/src/1_single-responsibility-principle)
 
