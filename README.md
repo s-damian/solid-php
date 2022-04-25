@@ -1,4 +1,4 @@
-# SOLID - Exemple avec PHP 8.1
+# SOLID - Examples with PHP 8.1
 
 
 ## Author
