@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Liskov Substitution Principle (Substitution de Liskov).
+ * Liskov Substitution Principle.
  */
 
 require_once 'Graphic/Quadrilaterals/Quadrilateral.php';
@@ -14,15 +14,13 @@ use Graphic\Quadrilaterals\Square;
 use Graphic\Graphic;
 
 /**
- * Dans cette exemple, les Quadrilaterals "\Graphic\Quadrilaterals\Rectangle" et "\Graphic\Quadrilaterals\Square"
- * sont des enfants de la classe "\Graphic\Quadrilaterals\Quadrilateral".
+ * In this example, the Quadrilaterals "\Graphic\Quadrilaterals\Rectangle" and "\Graphic\Quadrilaterals\Square"
+ * are children of class "\Graphic\Quadrilaterals\Quadrilateral".
  *
- * La méthode "resizeByPercentage" de la classe "\Graphic\Graphic" attend en 1er paramètre un enfant
- * de la classe "\Graphic\Quadrilaterals\Quadrilateral".
+ * The "resizeByPercentage" method of the "\Graphic\Graphic" class expects a child of the "\Graphic\Quadrilaterals\Quadrilateral" class as its 1st parameter.
  *
- * Dans cette exemple on constate donc que dans "resizeByPercentage" on peut donc
- * remplacer "\Graphic\Quadrilaterals\Rectangle" par "\Graphic\Quadrilaterals\Square"
- * et vice versa sans que cela ne modifie la cohérence du programme.
+ * In this example we can therefore see that in "resizeByPercentage" we can therefore replace "\Graphic\Quadrilaterals\Rectangle" by "\Graphic\Quadrilaterals\Square"
+ * and vice versa without changing the consistency of the program.
  */
 
 
@@ -34,14 +32,14 @@ $square = new Square();
 $square->setWidth(4);
 $square->setHeight(4);
 
-// return int - Largeur du Rectangle.
+// return int - Rectangle width.
 echo '<pre>'; var_dump($rectangle->getWidth());
-// return int - Hauteur du Rectangle.
+// return int - Rectangle height.
 echo '<pre>'; var_dump($rectangle->getHeight());
 
-// return int - Largeur du Square.
+// return int - Square width.
 echo '<pre>'; var_dump($square->getWidth());
-// return int - Hauteur du Square.
+// return int - Square height.
 echo '<pre>'; var_dump($square->getHeight());
 
 
@@ -52,12 +50,12 @@ $graphic = new Graphic();
 $graphic->resizeByPercentage($rectangle, 25);
 $graphic->resizeByPercentage($square, 25);
 
-// return int - Largeur du Rectangle modifiée avec "resizeByPercentage".
+// return int - Rectangle width changed with "resizeByPercentage".
 echo '<pre>'; var_dump($rectangle->getWidth());
-// return int - Hauteur du Rectangle modifiée avec "resizeByPercentage".
+// return int - Rectangle height changed with "resizeByPercentage".
 echo '<pre>'; var_dump($rectangle->getHeight());
 
-// return int - Largeur du Square modifiée avec "resizeByPercentage".
+// return int - Square width changed with "resizeByPercentage".
 echo '<pre>'; var_dump($square->getWidth());
-// return int - Hauteur du Square modifiée avec "resizeByPercentage".
+// return int - Square height changed with "resizeByPercentage".
 echo '<pre>'; var_dump($square->getHeight());

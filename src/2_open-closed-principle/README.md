@@ -3,9 +3,15 @@
 
 ## Description
 
+### En
+
+A class must be open to extension, but closed to modification.
+
+### Fr
+
 Une classe doit être ouverte à l'extension, mais fermée à la modification.
 
 
-## Voici un exemple du principe Open Closed Principle (Ouvert/fermé)
+## Example
 
-* [Open Closed Principle (Ouvert/fermé) - Source](https://github.com/dev-and-web/solid-php/tree/master/src/2_open-closed-principle/index.php)
+* [Open Closed Principle - Source code](https://github.com/dev-and-web/solid-php/tree/master/src/2_open-closed-principle/index.php)

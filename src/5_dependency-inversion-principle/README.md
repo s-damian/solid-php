@@ -1,9 +1,25 @@
 # Dependency Inversion Principle (Inversion des dépendances)
 
 
-
-
 ## Description
+
+### En
+
+Depend on abstractions, not implementations.
+
+Ability to override injected dependencies.
+
+Our dependencies must be on interfaces/contracts or on abstract classes rather than on "concrete" classes.
+
+Dependency injection provides a component with its dependencies either via a constructor,
+method calls or property configuration.
+
+Dependencies are separated by controlling them and instantiating them elsewhere in the system.
+
+Dependency injection allows us to inject only the dependencies we need,
+when we need and those without having to hard-write any dependencies.
+
+### Fr
 
 Il faut dépendre des abstractions, pas des implémentations.
 
@@ -20,10 +36,6 @@ L’injection de dépendances nous permet d'injecter uniquement les dépendances
 quand nous avons besoin et ceux sans avoir à écrire en dur quelques dépendances que ce soit.
 
 
+## Example
 
-
-
-
-## Voici un exemple du principe Dependency Inversion Principle (Inversion des dépendances)
-
-* [Dependency Inversion Principle (Inversion des dépendances) - Source](https://github.com/dev-and-web/solid-php/tree/master/src/5_dependency-inversion-principle/index.php)
+* [Dependency Inversion Principle - Source code](https://github.com/dev-and-web/solid-php/tree/master/src/5_dependency-inversion-principle/index.php)

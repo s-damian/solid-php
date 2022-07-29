@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Interface Segregation Principle (Ségrégation des interfaces)
+ * Interface Segregation Principle.
  */
 
 require_once 'Worker/Jobs/JobInterface.php';
@@ -16,16 +16,14 @@ use Worker\Jobs\Webdesigner\Webdesigner;
 use Worker\Employee;
 
 /**
- * Dans cette exemple, les Jobs "\Worker\Jobs\Developer\Developer" et "\Worker\Jobs\Webdesigner\Webdesigner"
- * implémente une interface spécifique à leur métier,
- * Et cette interface hérite elle même l'interface "\Worker\Jobs\JobInterface"
- * qui est une interface + gérérique.
+ * In this example, the Jobs "\Worker\Jobs\Developer\Developer" and "\Worker\Jobs\Webdesigner\Webdesigner"
+ * implement an interface specific to their business.
+ * And this interface itself inherits the "\Worker\Jobs\JobInterface" interface which is a more generic interface.
+ * 
  *
- * La méthode "action" de la classe "\Worker\Employee" attend une classe qui implémente
- * l'interface "\Worker\Jobs\JobInterface".
+ * The "action" method of the "\Worker\Employee" class expects a class that implements the "\Worker\Jobs\JobInterface" interface.
  *
- * Dans cette exemple on constate donc que chaque que chaque classe a une interface spécifique
- * qui elles mêmes peuvent étendrent d'une interface + générique.
+ * In this example, we can therefore see that each class has a specific interface which they themselves can extend from a more generic interface.
  */
 
 
@@ -34,11 +32,11 @@ $employee = new Employee();
 
 $developer = new Developer();
 
-// return string - action (métier + action de ce metier).
+// return string - Action (job + action of this job).
 echo '<pre>'; var_dump($employee->action($developer));
 
 
 $webdesigner = new Webdesigner();
 
-// return string - action (métier + action de ce metier).
+// return string - Action (job + action of this job).
 echo '<pre>'; var_dump($employee->action($webdesigner));

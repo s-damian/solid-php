@@ -4,49 +4,27 @@ namespace Graphic\Quadrilaterals;
 
 abstract class Quadrilateral
 {
-    /**
-     * @var int
-     */
-    protected $height;
+    protected int $height;
 
-    /**
-     * @var int
-     */
-    protected $width;
+    protected int $width;
 
-    /**
-     * @param int $width
-     * @param int $height
-     */
-    abstract public function resize(int $width, int $height);
+    abstract public function resize(int $width, int $height): void;
     
-    /**
-     * @param int $value
-     */
-    public function setWidth(int $value)
+    public function setWidth(int $value): void
     {
         $this->width = $value;
     }
     
-    /**
-     * @param int $value
-     */
-    public function setHeight(int $value)
+    public function setHeight(int $value): void
     {
         $this->height = $value;
     }
 
-    /**
-     * @return int
-     */
     public function getWidth(): int
     {
         return $this->width;
     }
     
-    /**
-     * @return int
-     */
     public function getHeight(): int
     {
         return $this->height;

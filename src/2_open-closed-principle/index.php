@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Open Closed Principle (Ouvert/fermé)
+ * Open Closed Principle.
  */
 
 require_once 'Sport/Sports/SportInterface.php';
@@ -14,15 +14,14 @@ use Sport\Sports\Football;
 use Sport\Sports\Basketball;
 
 /**
- * Dans cette exemple, les Sports "\Sport\Sports\Football" et "\Sport\Sports\Basketball" implémentent
- * l'interface "\Sport\Sports\SportInterface".
- * Ceci est utile pour s'assurer que les méthode "name" et "rules" soient bien présentes dans tout les Sports.
+ * In this example, the Sports "\Sport\Sports\Football" and "\Sport\Sports\Basketball" implement the "\Sport\Sports\SportInterface" interface.
+ * This is useful to ensure that the "name" and "rules" methods are present in all Sports.
  *
- * La méthone "rules" de la classe "\Sport\Sport" attend en paramètre une classe qui implémente
- * l'interface "\Sport\Sports\SportInterface" pour retourner en réponse les règles d'un Sport.
+ * The "rules" method of the "\Sport\Sport" class expects as a parameter a class that implements the "\Sport\Sports\SportInterface" interface
+ * to return the rules of a Sport in response.
  *
- * Dans cette exemple on constate donc que les classes "\Sport\Sports\Football" et "\Sport\Sports\Basketball"
- * sont bien ouvertes à l'exentions (qu'on peut ajouter des comportements...) et fermées à la modification.
+ * In this example, we can see that the "\Sport\Sports\Football" and "\Sport\Sports\Basketball" classes are indeed open to extensions (that behaviors can be added...)
+ * and closed to modification .
  */
 
 
@@ -31,11 +30,11 @@ $sport = new Sport();
 
 $football = new Football();
 
-// return string - Règles du football.
+// return string - Rules of soccer.
 echo '<pre>'; var_dump($sport->rules($football));
 
 
 $basketball = new Basketball();
 
-// return string - Règles du basketball.
+// return string - Rules of basketball.
 echo '<pre>'; var_dump($sport->rules($basketball));
