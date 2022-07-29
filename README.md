@@ -10,20 +10,20 @@ Author of this example:
 
 ## SOLID
 
-_S :
-**Single Responsibility Principle (Responsabilité unique)** - Une classe doit avoir une et une seule responsabilité.
+S :
+**Single Responsibility Principle** - A class must have one and only one responsibility.
 
-_O :
-**Open Closed Principle (Ouvert/fermé)** - Une classe doit être ouverte à l'extension, mais fermée à la modification.
+O :
+**Open Closed Principle** - A class must be open to extension, but closed to modification.
 
-_L :
-**Liskov Substitution Principle (Substitution de Liskov)** - Une instance de type T doit pouvoir être remplacée par une instance de type G, tel que G sous-type de T, sans que cela ne modifie la cohérence du programme.
+L :
+**Liskov Substitution Principle** - An instance of type T must be able to be replaced by an instance of type G, such as G subtype of T, without this modifying the consistency of the program.
 
-_I :
-**Interface Segregation Principle (Ségrégation des interfaces)** - Préférer plusieurs interfaces spécifiques pour chaque client plutôt qu'une seule interface générale.
+I :
+**Interface Segregation Principle** - Prefer several specific interfaces for each client rather than a single general interface.
 
-_D :
-**Dependency Inversion Principle (Inversion des dépendances)** - Il faut dépendre des abstractions, pas des implémentations.
+D :
+**Dependency Inversion Principle** - Depend on abstractions, not implementations.
 
 
 ## Examples
