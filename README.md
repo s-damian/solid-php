@@ -5,7 +5,7 @@
 
 Author of this example:
 [Freelance Laravel](https://www.devandweb.fr/freelance/developpeur-php)
-[![Freelance Next.js](https://www.devandweb.fr/medias/app/website/developpeur-web.png)](https://www.devandweb.fr)
+[![Freelance Next.js](https://raw.githubusercontent.com/dev-and-web/medias/main/daw-freelance-developer.png)](https://www.devandweb.fr)
 
 
 ## SOLID
