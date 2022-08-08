@@ -18,4 +18,4 @@ Les classes enfants ne devraient jamais casser les définitions de type des clas
 
 ## Example
 
-* [Liskov Substitution Principle - Source code](https://github.com/dev-and-web/solid-php/tree/master/src/3_liskov-substitution-principle/index.php)
+* [Liskov Substitution Principle - Source code](https://github.com/s-damian/solid-php/tree/master/src/3_liskov-substitution-principle/index.php)

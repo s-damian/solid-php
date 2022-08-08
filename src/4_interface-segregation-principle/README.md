@@ -14,4 +14,4 @@ Préférer plusieurs interfaces spécifiques pour chaque client plutôt qu'une s
 
 ## Example
 
-* [Interface Segregation Principle - Source code](https://github.com/dev-and-web/solid-php/tree/master/src/4_interface-segregation-principle/index.php)
+* [Interface Segregation Principle - Source code](https://github.com/s-damian/solid-php/tree/master/src/4_interface-segregation-principle/index.php)

@@ -5,7 +5,7 @@
 
 Author of this example:
 [Freelance Laravel](https://www.devandweb.fr/freelance/developpeur-php)
-[![Freelance Next.js](https://raw.githubusercontent.com/dev-and-web/medias/main/daw-freelance-developer.png)](https://www.devandweb.fr)
+[![Freelance Next.js](https://raw.githubusercontent.com/s-damian/medias/main/daw-freelance-developer.png)](https://www.devandweb.fr)
 
 
 ## SOLID
@@ -28,12 +28,12 @@ D :
 
 ## Examples
 
-* [Single Responsibility Principle](https://github.com/dev-and-web/solid-php/tree/master/src/1_single-responsibility-principle)
+* [Single Responsibility Principle](https://github.com/s-damian/solid-php/tree/master/src/1_single-responsibility-principle)
 
-* [Open Closed Principle](https://github.com/dev-and-web/solid-php/tree/master/src/2_open-closed-principle)
+* [Open Closed Principle](https://github.com/s-damian/solid-php/tree/master/src/2_open-closed-principle)
 
-* [Liskov Substitution Principle](https://github.com/dev-and-web/solid-php/tree/master/src/3_liskov-substitution-principle)
+* [Liskov Substitution Principle](https://github.com/s-damian/solid-php/tree/master/src/3_liskov-substitution-principle)
 
-* [Interface Segregation Principle](https://github.com/dev-and-web/solid-php/tree/master/src/4_interface-segregation-principle)
+* [Interface Segregation Principle](https://github.com/s-damian/solid-php/tree/master/src/4_interface-segregation-principle)
 
-* [Dependency Inversion Principle](https://github.com/dev-and-web/solid-php/tree/master/src/5_dependency-inversion-principle)
+* [Dependency Inversion Principle](https://github.com/s-damian/solid-php/tree/master/src/5_dependency-inversion-principle)

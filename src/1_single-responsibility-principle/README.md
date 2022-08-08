@@ -18,4 +18,4 @@ Une classe ne devrait avoir qu'une seule raison de changer.
 
 ## Example
 
-* [Single Responsibility Principle - Source code](https://github.com/dev-and-web/solid-php/tree/master/src/1_single-responsibility-principle/index.php)
+* [Single Responsibility Principle - Source code](https://github.com/s-damian/solid-php/tree/master/src/1_single-responsibility-principle/index.php)

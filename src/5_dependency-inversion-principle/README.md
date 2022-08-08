@@ -38,4 +38,4 @@ quand nous avons besoin et ceux sans avoir à écrire en dur quelques dépendanc
 
 ## Example
 
-* [Dependency Inversion Principle - Source code](https://github.com/dev-and-web/solid-php/tree/master/src/5_dependency-inversion-principle/index.php)
+* [Dependency Inversion Principle - Source code](https://github.com/s-damian/solid-php/tree/master/src/5_dependency-inversion-principle/index.php)

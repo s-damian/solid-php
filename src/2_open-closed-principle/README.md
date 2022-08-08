@@ -14,4 +14,4 @@ Une classe doit être ouverte à l'extension, mais fermée à la modification.
 
 ## Example
 
-* [Open Closed Principle - Source code](https://github.com/dev-and-web/solid-php/tree/master/src/2_open-closed-principle/index.php)
+* [Open Closed Principle - Source code](https://github.com/s-damian/solid-php/tree/master/src/2_open-closed-principle/index.php)
