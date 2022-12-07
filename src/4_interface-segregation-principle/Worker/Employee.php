@@ -8,6 +8,6 @@ class Employee
 {
     public function action(JobInterface $job): string
     {
-        return $job->action();  
+        return $job->action();
     }
 }

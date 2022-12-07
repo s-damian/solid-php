@@ -31,10 +31,12 @@ $sport = new Sport();
 $football = new Football();
 
 // return string - Rules of soccer.
-echo '<pre>'; var_dump($sport->rules($football));
+echo '<pre>';
+var_dump($sport->rules($football));
 
 
 $basketball = new Basketball();
 
 // return string - Rules of basketball.
-echo '<pre>'; var_dump($sport->rules($basketball));
+echo '<pre>';
+var_dump($sport->rules($basketball));

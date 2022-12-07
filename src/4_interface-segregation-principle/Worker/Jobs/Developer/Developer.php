@@ -11,11 +11,11 @@ class Developer implements CodeInterface
 
     public function coding(): string
     {
-    	return 'Coding';
+        return 'Coding';
     }
 
     public function action(): string
     {
-    	return 'The '.$this->job().' '.$this->coding();
+        return 'The '.$this->job().' '.$this->coding();
     }
 }

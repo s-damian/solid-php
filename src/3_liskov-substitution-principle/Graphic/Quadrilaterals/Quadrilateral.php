@@ -9,12 +9,12 @@ abstract class Quadrilateral
     protected int $width;
 
     abstract public function resize(int $width, int $height): void;
-    
+
     public function setWidth(int $value): void
     {
         $this->width = $value;
     }
-    
+
     public function setHeight(int $value): void
     {
         $this->height = $value;
@@ -24,7 +24,7 @@ abstract class Quadrilateral
     {
         return $this->width;
     }
-    
+
     public function getHeight(): int
     {
         return $this->height;

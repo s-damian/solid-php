@@ -31,10 +31,12 @@ $article = new Article();
 $jsonFormatter = new JsonFormatter();
 
 // return string - Returns the content of the article in JSON format.
-echo '<pre>'; var_dump($jsonFormatter->format($article));
+echo '<pre>';
+var_dump($jsonFormatter->format($article));
 
 
 $xmlFormatter = new XmlFormatter();
 
 // return string - Returns the content of the article in XML format.
-echo '<pre>'; var_dump($xmlFormatter->format($article));
+echo '<pre>';
+var_dump($xmlFormatter->format($article));

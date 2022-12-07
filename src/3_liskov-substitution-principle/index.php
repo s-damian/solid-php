@@ -33,14 +33,18 @@ $square->setWidth(4);
 $square->setHeight(4);
 
 // return int - Rectangle width.
-echo '<pre>'; var_dump($rectangle->getWidth());
+echo '<pre>';
+var_dump($rectangle->getWidth());
 // return int - Rectangle height.
-echo '<pre>'; var_dump($rectangle->getHeight());
+echo '<pre>';
+var_dump($rectangle->getHeight());
 
 // return int - Square width.
-echo '<pre>'; var_dump($square->getWidth());
+echo '<pre>';
+var_dump($square->getWidth());
 // return int - Square height.
-echo '<pre>'; var_dump($square->getHeight());
+echo '<pre>';
+var_dump($square->getHeight());
 
 
 echo '<hr>';
@@ -51,11 +55,15 @@ $graphic->resizeByPercentage($rectangle, 25);
 $graphic->resizeByPercentage($square, 25);
 
 // return int - Rectangle width changed with "resizeByPercentage".
-echo '<pre>'; var_dump($rectangle->getWidth());
+echo '<pre>';
+var_dump($rectangle->getWidth());
 // return int - Rectangle height changed with "resizeByPercentage".
-echo '<pre>'; var_dump($rectangle->getHeight());
+echo '<pre>';
+var_dump($rectangle->getHeight());
 
 // return int - Square width changed with "resizeByPercentage".
-echo '<pre>'; var_dump($square->getWidth());
+echo '<pre>';
+var_dump($square->getWidth());
 // return int - Square height changed with "resizeByPercentage".
-echo '<pre>'; var_dump($square->getHeight());
+echo '<pre>';
+var_dump($square->getHeight());

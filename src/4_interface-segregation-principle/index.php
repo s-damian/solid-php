@@ -19,7 +19,7 @@ use Worker\Employee;
  * In this example, the Jobs "\Worker\Jobs\Developer\Developer" and "\Worker\Jobs\Webdesigner\Webdesigner"
  * implement an interface specific to their business.
  * And this interface itself inherits the "\Worker\Jobs\JobInterface" interface which is a more generic interface.
- * 
+ *
  *
  * The "action" method of the "\Worker\Employee" class expects a class that implements the "\Worker\Jobs\JobInterface" interface.
  *
@@ -33,10 +33,12 @@ $employee = new Employee();
 $developer = new Developer();
 
 // return string - Action (job + action of this job).
-echo '<pre>'; var_dump($employee->action($developer));
+echo '<pre>';
+var_dump($employee->action($developer));
 
 
 $webdesigner = new Webdesigner();
 
 // return string - Action (job + action of this job).
-echo '<pre>'; var_dump($employee->action($webdesigner));
+echo '<pre>';
+var_dump($employee->action($webdesigner));
