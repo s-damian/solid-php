@@ -1,4 +1,6 @@
-# SOLID - Examples with PHP 8.1
+# SOLID - Examples with PHP 8.2
+
+Here there is an example of SOLID in PHP 8
 
 
 ## Author
