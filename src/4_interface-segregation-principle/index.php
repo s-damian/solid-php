@@ -26,16 +26,13 @@ use Worker\Employee;
  * In this example, we can therefore see that each class has a specific interface which they themselves can extend from a more generic interface.
  */
 
-
 $employee = new Employee();
-
 
 $developer = new Developer();
 
 // return string - Action (job + action of this job).
 echo '<pre>';
 var_dump($employee->action($developer));
-
 
 $webdesigner = new Webdesigner();
 

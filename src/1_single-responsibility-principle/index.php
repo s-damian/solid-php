@@ -24,16 +24,13 @@ use Article\Formatters\XmlFormatter;
  * In this example, we see that each class has only one responsibility.
  */
 
-
 $article = new Article();
-
 
 $jsonFormatter = new JsonFormatter();
 
 // return string - Returns the content of the article in JSON format.
 echo '<pre>';
 var_dump($jsonFormatter->format($article));
-
 
 $xmlFormatter = new XmlFormatter();
 

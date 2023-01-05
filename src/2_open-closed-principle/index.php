@@ -24,16 +24,13 @@ use Sport\Sports\Basketball;
  * and closed to modification .
  */
 
-
 $sport = new Sport();
-
 
 $football = new Football();
 
 // return string - Rules of soccer.
 echo '<pre>';
 var_dump($sport->rules($football));
-
 
 $basketball = new Basketball();
 

@@ -23,7 +23,6 @@ use Graphic\Graphic;
  * and vice versa without changing the consistency of the program.
  */
 
-
 $rectangle = new Rectangle();
 $rectangle->setWidth(4);
 $rectangle->setHeight(6);
@@ -46,9 +45,7 @@ var_dump($square->getWidth());
 echo '<pre>';
 var_dump($square->getHeight());
 
-
 echo '<hr>';
-
 
 $graphic = new Graphic();
 $graphic->resizeByPercentage($rectangle, 25);

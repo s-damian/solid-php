@@ -25,7 +25,6 @@ require_once 'Mailing/SendMail.php';
  * In this example, we therefore see that we are replacing the dependency injected into the constructor of "\Mailing\SendMail".
  */
 
-
 $swiftMailer = new SwiftMailer();
 
 $sendMail = new SendMail($swiftMailer);
@@ -33,11 +32,9 @@ $sendMail = new SendMail($swiftMailer);
 echo '<pre>';
 var_dump($sendMail->sendMessage());
 
-
 /**
  * We can therefore replace the injected dependency "\Mailing\Mailers\SwiftMailer" by "\Mailing\Mailers\PHPMailer".
  */
-
 
 $phpMailer = new PHPMailer();
 
