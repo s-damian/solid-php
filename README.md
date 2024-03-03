@@ -1,4 +1,4 @@
-# SOLID - Examples with PHP 8.2
+# SOLID - Examples with PHP 8.3
 
 Here there is an example of SOLID in PHP 8
 
